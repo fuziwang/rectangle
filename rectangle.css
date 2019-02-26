@@ -1,0 +1,35 @@
+*{
+  padding:0;
+  margin:0;
+}
+div{
+  width:377px;
+  margin:50px auto;
+  font-size:1.1em;
+}
+div label{
+  margin:5px 0;
+  padding-left:5px;
+  font-size:1em;
+}
+div input{
+  margin:5px 0;
+  padding-left:5px;
+  font-size:1em
+}
+div span{
+  margin-left:4px;
+  color: red;
+}
+div p{
+  margin:5px 0;
+  padding-left:65px;
+  font-size:0.8em;
+  color:red;
+  display:none;
+}
+div #calculate{
+  width:70px;
+  margin-left:57px;
+  padding-left:0;
+}
