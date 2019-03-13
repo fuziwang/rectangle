@@ -6,10 +6,12 @@
   },
   "extends": "eslint:recommended",
   "rules": {
-    "indent": ["error",2,
+      "indent": ["error",2,
     {"SwitchCase": 1,"VariableDeclarator": {"var": 2, "let": 2, "const": 3}}],  
-  "linebreak-style": ["error","unix"],
-  "quotes": ["error","single"],
-  "semi": ["error","always"]
+    "linebreak-style": ["error","unix"],
+    "quotes": ["error","single"],
+    "semi": ["error","always"],
+    "no-unused-vars":"off",
+    "no-undef":"off"
    }
 }

@@ -3,15 +3,15 @@
   "version": "1.0.0",
   "description": "矩形计算器",
   "main": "rectangle.js",
-  "dependencies": {
+  "devDependencies": {
     "grunt": "^1.0.3",
     "grunt-contrib-csslint": "^2.0.0",
     "grunt-eslint": "^21.0.0",
-    "grunt-htmlhint": "^0.9.13"
+    "grunt-htmlhint": "^0.9.13",
+    "grunt-mocha": "^0.4.15"
   },
-  "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 0"
+    "test": "grunt lint && grunt test"
   },
   "repository": {
     "type": "git",
