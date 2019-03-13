@@ -3,11 +3,8 @@ $(function(){
       height = $('#height'),
       btnCal = $('#calculate'),
       perimeter = $('#perimeter'),
-      area = $('#area'),
-      ptxt = $('p');
+      area = $('#area');
   btnCal.click(function(){
-    var wval = width.val(),
-        hval = height.val();
 
     var w = Number(width.val()),
         h = Number(height.val());
