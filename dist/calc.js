@@ -1,0 +1,1 @@
+function rectangle(){return{perimeter:function(r,e){return 2*(Number(r)+Number(e))},area:function(r,e){return Number(r)*Number(e)}}}

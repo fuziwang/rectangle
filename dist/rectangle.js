@@ -1,0 +1,1 @@
+$(function(){var l=$("#width"),t=$("#height"),e=$("#calculate"),c=$("#perimeter"),i=$("#area");e.click(function(){var e=Number(l.val()),a=Number(t.val()),r=rectangle();c.val(r.perimeter(e,a)),i.val(r.area(e,a))})});
