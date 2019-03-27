@@ -21,15 +21,14 @@ div span{
   color: red;
   margin-left:4px;
 }
-div p{
-  color:red;
-  display:none;
-  font-size:0.8em;
-  margin:5px 0;
-  padding-left:65px;
-}
 div #calculate{
   margin-left:57px;
   padding-left:0;
   width:70px;
+}
+#width-validation,#height-validation{
+  font-size:0.8em;
+  color:red;
+  margin:0px;
+  margin-left:62px;
 }
