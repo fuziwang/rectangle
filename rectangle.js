@@ -7,6 +7,12 @@ $(function(){
       $area = $('#area'),
       $widthValidation = $('#width-validation'),
       $heightValidation = $('#height-validation');
+  
+  $width.keypress(function(e){
+    if(!isLegalKey(e.key,e.target.value,e.target.selectionStart)){
+      e.preventDefault();
+    }
+  });
 
   $width.focusout(function(){
     var w = $width.val();
@@ -20,6 +26,12 @@ $(function(){
     $widthValidation.html('');
   });
 
+  $height.keypress(function(e){
+    if(!isLegalKey(e.key,e.target.value,e.target.selectionStart)){
+      e.preventDefault();
+    }
+  });
+
   $height.focusout(function(){
     var h = $height.val();
 
@@ -31,6 +43,7 @@ $(function(){
     } 
     $heightValidation.html('');
   });
+
   $btnCal.click(function(){
 
     var w = $width.val(),
