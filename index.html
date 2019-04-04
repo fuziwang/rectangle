@@ -7,21 +7,21 @@
 </head>
 <body>
   <div>
-    <label for="width">宽度：</label>
-    <input type="text" id="width"><span>*</span><br/>
-    <div id="width-validation"></div>
-    <label for="height">高度：</label>
-    <input type="text" id="height"><span>*</span><br/>
-    <div id="height-validation"></div>
-    <label for=""></label>
-    <input type="button" id="calculate" value="计算">
-    <br>
-    <label for="perimeter">周长：</label>
-    <input type="text" id="perimeter" disabled>
-    <br>
-    <label for="area">面积：</label>
-    <input type="text" id="area" disabled>
-    <br>
+    <form>
+      <label for="width">宽度：</label>
+      <input type="number" id="width" required min="0" step="0.01"><span></span><br/>
+      <label for="height">高度：</label>
+      <input type="number" id="height" required min="0" step="0.01"><span></span><br/>
+      <label for=""></label>
+      <input type="submit" id="calculate" value="计算">
+      <br/>
+      <label for="perimeter">周长：</label>
+      <input type="text" id="perimeter" disabled>
+      <br/>
+      <label for="area">面积：</label>
+      <input type="text" id="area" disabled>
+      <br/>
+    </form>
   </div>
   <script src="//apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
   <!-- build:js bundle.min.js -->

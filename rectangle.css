@@ -19,7 +19,7 @@ div input{
 }
 div span{
   color: red;
-  margin-left:4px;
+  margin-left:5px;
 }
 div #calculate{
   margin-left:57px;
@@ -31,4 +31,15 @@ div #calculate{
   color:red;
   margin:0px;
   margin-left:62px;
+}
+#width:pattern{
+
+}
+input:invalid+span:after{
+  content:'✖';
+  color:red;
+}
+input:valid+span:after{
+  content: '✓';
+  color: green;
 }
